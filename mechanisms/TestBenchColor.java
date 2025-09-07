@@ -1,3 +1,10 @@
+/*
+This code goes with ColorSensorTest.java
+This program will be able to sense 3 colors: red, green, and blue, and will display unknown when the
+sensor doesn't seem to detect any of these three
+*/
+
+
 package org.firstinspires.ftc.teamcode.mechanisms;
 
 import com.qualcomm.robotcore.hardware.HardwareMap;
@@ -59,3 +66,4 @@ public class TestBenchColor {
 
 
 }
+
