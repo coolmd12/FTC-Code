@@ -1,3 +1,9 @@
+/*
+This code goes with TestBenchColor.java
+This program will be able to sense 3 colors: red, green, and blue, and will display unknown when the
+sensor doesn't seem to detect any of these three
+ */
+
 package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
@@ -22,6 +28,3 @@ public class ColorSensorTest extends OpMode {
         telemetry.addData("Color Detected",detectedColor);
     }
 }
-
-
-
